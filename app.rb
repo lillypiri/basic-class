@@ -8,12 +8,14 @@ class Animal
         @name = name
     end
 
-
     def speak
         "?"
     end
 end
 
+# Running this app in terminal will spit out "Socks: meow
+#Buddy: woof"
+# In Animal Class above, 'name' will only work in Animal class and subclasses (Cat and Dog) because they inherit it. The '<' means it extends the class. So "Cat extends Animal".
 
 class Cat < Animal
     def speak
@@ -26,6 +28,7 @@ class Dog < Animal
         @name + ": woof"
     end
 end
+
 
 cat = Cat.new "Socks"
 
