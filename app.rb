@@ -23,21 +23,12 @@ end
 
 class Cat < Animal
     def speak
-        @name + ": meow"
+        @name + " says 'meow'"
     end
 end
 
 class Dog < Animal
     def speak
-        @name + ": woof"
+        @name + " says 'woof'"
     end
 end
-
-
-cat = Cat.new "Socks"
-
-puts cat.speak
-
-dog = Dog.new "Buddy"
-
-puts dog.speak
