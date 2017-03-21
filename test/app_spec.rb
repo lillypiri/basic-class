@@ -17,7 +17,7 @@ describe Cat do
     it "says meow" do
       # This makes a new cat that will be our test example.
       cat = Cat.new('Socks')
-      # We expect our cat's 'speak' to equal to 'Socks: meow'
+      # We expect our cat's 'speak' to equal to 'Socks says meow'
       expect(cat.speak).to eq ('Socks says \'meow\'')
     end
   end
